@@ -1,0 +1,105 @@
+<html>
+<head>
+    <title>Contact | Student Portfolio</title>
+    <style>
+        body
+             {margin: 0;
+             font-family: Arial sans-serif;
+              background-color: #b5d8de;}
+        header {background-color: #083f92;
+             color: white;
+              padding: 20px;
+               text-align: center;}
+        nav {background-color: #536aac;
+             padding: 10px; 
+             text-align: center;}
+        nav a {color: white;
+             margin: 0 15px; 
+             text-decoration: none; 
+             font-weight: bold;}
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex; 
+            margin: 20px;
+        }
+        .content {flex: 3; 
+            background-color: white;
+             padding: 20px;
+              margin-right: 20px;
+               border-radius: 8px;}
+        .sidebar {flex: 1; 
+            background-color: #ddd; 
+            padding: 20px;
+             border-radius: 8px;}
+        footer {background-color: #083f92; 
+            color: white; 
+            text-align: center;
+             padding: 15px; 
+             margin-top: 20px;}
+        form {
+            margin-top: 15px;
+        }
+        input, textarea {
+            width:100%; 
+            padding:8px; 
+            margin:6px 0;
+             border:1px solid #ccc;
+              border-radius:4px;}
+        input[type="submit"] {
+            background-color:#333;
+             color:white; 
+             cursor:pointer;
+            }
+        input[type="submit"]:hover {
+            background-color:#555;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+    <p>Let’s connect and collaborate!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="content">
+        <h2>Get in Touch</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Message:</label>
+            <textarea rows="4" placeholder="Your message..."></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    <div class="sidebar">
+        <h3>Contact Info</h3>
+        <p><b>Email:</b> mahek@example.com</p>
+        <p><b>Phone:</b> +91-9876543210</p>
+        <p><b>Location:</b> India</p>
+    </div>
+</div>
+
+<footer>
+    <p>©️ 2026 Mahek Yadav | Contact Page</p>
+</footer>
+
+</body>
+</html>
